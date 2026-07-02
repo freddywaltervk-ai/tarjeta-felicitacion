@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tarjeta de felicitación profesional para reconocer una labor institucional destacada.">
+  <title>Tarjeta de Felicitación</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="effectsCanvas" aria-hidden="true"></canvas>
+
+  <main class="page-shell">
+    <section class="celebration-card" aria-label="Tarjeta de felicitación">
+      <div class="decor decor-flower decor-flower-one" aria-hidden="true"></div>
+      <div class="decor decor-flower decor-flower-two" aria-hidden="true"></div>
+      <div class="decor decor-heart decor-heart-one" aria-hidden="true"></div>
+      <div class="decor decor-heart decor-heart-two" aria-hidden="true"></div>
+
+      <div class="top-row">
+        <span class="badge">Reconocimiento institucional</span>
+        <button class="music-button" id="musicToggle" type="button" aria-pressed="false">
+          <span class="music-icon" aria-hidden="true">♪</span>
+          <span class="music-label">Reproducir música</span>
+        </button>
+      </div>
+
+      <div class="card-content">
+        <p class="eyebrow">Con aprecio y gratitud</p>
+        <h1>Te felicito por el trabajo realizado como Secretaria del Departamento de Información Situacional</h1>
+        <p class="lead">Tu dedicada labor permite el logro de nuestras metas y el cumplimiento de nuestra misión institucional.</p>
+
+        <div class="message-panel">
+          <p>Gracias por tu compromiso, responsabilidad, profesionalismo y permanente disposición para apoyar al equipo.</p>
+        </div>
+
+        <div class="quote-grid" aria-label="Frases motivadoras">
+          <blockquote>El éxito es el resultado del esfuerzo constante.</blockquote>
+          <blockquote>Tu dedicación inspira a todos.</blockquote>
+          <blockquote>Cada día haces la diferencia.</blockquote>
+        </div>
+
+        <p class="closing">¡Muchas Felicidades!</p>
+      </div>
+    </section>
+  </main>
+
+  <div class="floating-layer" aria-hidden="true">
+    <span class="balloon balloon-one"></span>
+    <span class="balloon balloon-two"></span>
+    <span class="balloon balloon-three"></span>
+    <span class="sparkle sparkle-one"></span>
+    <span class="sparkle sparkle-two"></span>
+    <span class="sparkle sparkle-three"></span>
+    <span class="petal petal-one"></span>
+    <span class="petal petal-two"></span>
+    <span class="petal petal-three"></span>
+    <span class="heart-float heart-float-one"></span>
+    <span class="heart-float heart-float-two"></span>
+    <span class="heart-float heart-float-three"></span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
